@@ -1,64 +1,180 @@
 # MindSpace
 
-MindSpace is a Flutter personal knowledge management system built around Spaces.
-It is designed to organize notes, tasks, articles, files, tags, public content,
-statistics, reminders, security, synchronization, and future AI workflows.
+MindSpace is a modern personal knowledge management application built with **Flutter**. It is designed to be more than a simple note-taking app by providing a centralized workspace where users can organize notes, tasks, articles, files, and personal information in one place.
 
-## Backend
+The project is built with scalability and maintainability in mind, following modern software architecture principles to support future features such as cloud synchronization, AI-powered assistance, and advanced productivity tools.
 
-PHP API document root:
+---
+
+# ✨ Features
+
+## 📝 Notes
+
+* Create, edit, and organize notes.
+* Archive notes without deleting them.
+* Mark notes as favorites.
+* Restore deleted notes from the recycle bin.
+
+---
+
+## 📂 Spaces
+
+* Organize notes into dedicated workspaces.
+* Separate personal and professional content.
+* Easily manage multiple categories of information.
+
+---
+
+## ✅ Tasks
+
+* Create and manage daily tasks.
+* Track task progress.
+* Organize work efficiently.
+
+---
+
+## 📚 Articles
+
+* Store articles and useful information.
+* Keep research materials organized.
+
+---
+
+## 🗂 Archive & Favorites
+
+* Archive items instead of deleting them.
+* Save important content as favorites.
+* Restore deleted content from the recycle bin.
+
+---
+
+## 👤 User Profile
+
+* Manage personal information.
+* Update profile settings.
+* Customize application preferences.
+
+---
+
+## 🌍 Localization
+
+The application supports multiple languages:
+
+* Turkish
+* English
+* Arabic
+
+The app automatically detects the device language while allowing users to switch languages manually.
+
+---
+
+# 🏗 Architecture
+
+The project follows modern Flutter development practices.
+
+### Architecture
+
+* Clean Architecture
+* Feature-First Architecture
+* Repository Pattern
+* SOLID Principles
+
+### State Management
+
+* Bloc / Cubit
+
+### Networking
+
+* Dio
+* REST API
+
+### Backend
+
+* PHP
+
+### Database
+
+* MySQL
+
+---
+
+# 🎨 UI & UX
+
+* Responsive Design
+* Modern and minimal interface
+* Optimized for productivity
+* Smooth user experience
+
+---
+
+# 🚀 Future Improvements
+
+The architecture is prepared for future enhancements, including:
+
+* Cloud synchronization
+* AI-powered note summarization
+* Smart task generation
+* File management
+* Push notifications
+* Secure authentication
+* End-to-end encryption
+* Rich text editor
+* Offline-first synchronization
+
+---
+
+# 🛠 Tech Stack
+
+* Flutter
+* Dart
+* Bloc / Cubit
+* Dio
+* PHP REST API
+* MySQL
+* Clean Architecture
+* Feature-First Architecture
+
+---
+
+# 📷 Screenshots
+
+Add application screenshots here.
 
 ```text
-C:\xampp\htdocs\MindSpace
+screenshots/
+├── login.png
+├── home.png
+├── notes.png
+├── spaces.png
+├── tasks.png
+├── articles.png
+├── profile.png
 ```
 
-Default local API base URL:
+---
 
-```text
-http://localhost/MindSpace
+# ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/mindspace.git
+
+cd mindspace
+
+flutter pub get
+
+flutter run
 ```
 
-Android emulator API base URL:
+---
 
-```text
-http://10.0.2.2/MindSpace
-```
+# 📌 Project Status
 
-## Architecture
+🚧 In Development
 
-The application follows:
+MindSpace is an actively evolving project focused on creating a complete personal knowledge management platform with a scalable architecture for future production deployment.
 
-- Clean Architecture
-- Feature-First Architecture
-- SOLID Principles
-- Repository Pattern
-- Dependency Injection with GetIt
-- Cubit with flutter_bloc
-- Dio REST client
-- Equatable entities and states
-- Material 3 design system
-- Responsive layout with Flutter ScreenUtil
-- Offline-first preparation
-- Future AI integration preparation
+---
 
-## Main folders
+# 👨‍💻 Developer
 
-```text
-lib/src/app
-lib/src/core
-lib/src/features
-lib/src/shared
-```
-
-Each feature is structured independently with domain, data, and presentation
-layers where needed.
-
-## Backend source
-
-The PHP backend source is kept in:
-
-```text
-backend/
-```
-
-The same files are copied to the XAMPP document root when running locally.
+Developed using Flutter with Clean Architecture, Bloc/Cubit, PHP REST API, and MySQL, focusing on scalable architecture, maintainable code, and modern mobile application development.
