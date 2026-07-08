@@ -1,0 +1,5 @@
+<?php
+
+require_once dirname(__DIR__, 2) . '/core/bootstrap.php';
+
+(new MindSpace\Controllers\TaskListController())->index();
